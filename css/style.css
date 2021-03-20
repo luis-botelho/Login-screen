@@ -1,7 +1,11 @@
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans:wght@300;400;700&display=swap');
 * {
     margin: 0;
     padding: 0;
     box-sizing: border-box;
+}
+body {
+    font-family: 'Open Sans', sans-serif;
 }
 #container {
     display: flex;
@@ -22,9 +26,40 @@
 .content::before {
     content: "";
     position: absolute;
-    background-color: orangered;
+    background-color: orangered /*#58af9b*/;
     width: 40%;
     height: 100%;
+}
+.title {
+    font-size: 28px;
+    font-weight: bold;
+    text-transform: capitalize;
+}
+.title-t1 {
+    color: white;
+}
+.description {
+    font-size: 14px;
+    font-weight: 300;
+    color:#fff;
+    line-height: 30px;
+}
+.btn {
+    border-radius: 30px;
+    text-transform: uppercase;
+    color: #fff;
+    cursor: pointer;
+}
+.btn-primary {
+    background-color: transparent;
+    font-size: 10px;
+    padding: 10px 50px;
+    border: 1px solid #fff;
+    font-weight: bold;
+}
+.btn-primary:hover {
+    background-color: white;
+    color: orangered;
 }
 .content-1 {
     display: flex;
