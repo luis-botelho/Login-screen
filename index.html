@@ -28,16 +28,28 @@
                 <div class="social-media">
                     <!--social media-->
                     <ul class="social-list">
-                        <li class="social-item"><a href="#"><i class="fab fa-facebook-f"></i></a></li>
-                        <li class="social-item"><a href="#"><i class="fab fa-google-plus-g"></i></a></li>
-                        <li class="social-item"><a href="#"><i class="fab fa-linkedin-in"></i></a></li>
+                        <a class="social-link" href="#">
+                            <li class="social-item"><i class="fab fa-facebook-f"></i></li>
+                        </a>
+                        <a class="social-link" href="#">
+                            <li class="social-item"><i class="fab fa-google-plus-g"></i></li>
+                        </a>
+                        <a class="social-link" href="#">
+                            <li class="social-item"><i class="fab fa-linkedin-in"></i></li>
+                        </a>
                     </ul>
                 </div>
                 <p class="description description-second">or use your email for resgistration</p>
                 <form class="form">
-                    <input type="text" placeholder="Name">
-                    <input type="email" placeholder="Email">
-                    <input type="password" placeholder="Password">
+                    <label for="text" class="label-input"><i class="far fa-user icon-modify"></i>
+                        <input type="text" placeholder="Name">
+                    </label>
+                    <label for="email" class="label-input"><i class="far fa-envelope icon-modify"></i>
+                        <input type="email" placeholder="Email">
+                    </label>
+                    <label for="password" class="label-input"><i class="fas fa-lock icon-modify"></i>
+                        <input type="password" placeholder="Password">
+                    </label>
                     <button class="btn btn-second">sign up</button>
                 </form>
             </div><!--column2 login form-->
