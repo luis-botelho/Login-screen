@@ -213,6 +213,6 @@ input:-webkit-autofill {
     z-index: 11;
 }
 .sign-up-js .content::before {
-    left: 60%;
+    left: 0%;
     
 }
