@@ -1,5 +1,5 @@
-var btnSignin = document.querySelector("#sign-in");
-var btnSignup = document.querySelector("#sign-up");
+var btnSignin = document.querySelector("#signin");
+var btnSignup = document.querySelector("#signup");
 var body = document.querySelector("body");
 
 
